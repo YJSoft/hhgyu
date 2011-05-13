@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+    <title xml:lang="ko">Location Helper</title>
+    <description xml:lang="ko">
+        www를 붙여 주거나 지워줍니다.
+        혹은 www말고 다른 주소로도 가능합니다.
+        기본적으로 관리자 페이지에서는 작동하지 않습니다.
+    </description>
+    <version>0.1</version>
+    <date>2011-03-09</date>
+
+    <author email_address="hhgyu15@gmail.com" link="http://www.hhgyu.wo.tc">
+        <name xml:lang="ko">hhgyu</name>
+    </author>
+    
+    <extra_vars>
+        <var name="other_uri">
+            <title xml:lang="ko">다른 주소로 고정</title>
+            <description xml:lang="ko">www 말고 다른 주소로 고정하고 싶을 때 쓰세요.(# 잘못 설정하시면 작동하지 홈페이지를 아예 들어 가지 못하는 경우가 생깁니다!!, 그러나 관리자 페이지에서는 작동하지 않습니다.)</description>
+        </var>
+        <var name="www_uri" type="select">
+          <title xml:lang="ko">동작 방식</title>
+          <description xml:lang="ko">....</description>
+            <options value="www">
+              <title xml:lang="ko">www 넣기</title>
+            </options>
+            <options value="no_www">
+              <title xml:lang="ko">www 지우기</title>
+            </options>
+            <options value="no">
+              <title xml:lang="ko">동작 안함</title>
+            </options>
+        </var>
+    </extra_vars>
+</addon>
