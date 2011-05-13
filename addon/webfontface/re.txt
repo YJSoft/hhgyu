@@ -1,0 +1,1 @@
+v0.1 쿠기를 이용하여 몇 일 동안 안 보이게 하기     webfontface를 우선 순위에 두게하기(!important)     폰트 설치 유무확인(로컬에서 불러오기)     서버에서 불러오기 추가     파일 용량이 커서 나눔고딕과, 나눔명조만 포함 되어있습니다.또 외부에서 불러오기는 마땅한 곳이 없어서 보류합니다.나머지 폰트는 여기서 다운 받으세요http://www.xpressengine.com/?module=file&act=procFileDownload&file_srl=19203710&sid=3f9a25bbdbc5a07a6c22618ad3c79183
