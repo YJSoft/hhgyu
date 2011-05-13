@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon version="0.2">
+    <title xml:lang="ko">도메인 체크</title>
+	    <description xml:lang="ko">
+			1. 기본 도메인으로만 접속하도록 하기
+			2. 예외 도메인 설정 (홈페이지 모듈에 쓰는 도메인을 예외 처리하기)
+			Modified By hhgyu ( hhgyu15@gmail.com )
+    </description>
+    <version>0.2.1</version>
+    <date>2011-05-11</date>
+    <author email_address="admin@darime.org" link="http://www.darime.org/">
+        <name xml:lang="ko">다림토렌트</name>
+	  </author>
+	  
+    <author email_address="hhgyu15@gmail.com" link="http://xe.us7.kr">
+    <name xml:lang="ko">hhgyu</name>
+    </author>
+    
+    <link>http://xe.us7.kr/</link>
+
+<extra_vars>
+
+<group>
+<title xml:lang="ko">기본설정</title>
+
+  	<var name="my_domain">
+  		<title xml:lang="ko">기본 도메인</title>
+  		<description xml:lang="ko">기본으로 쓰고 싶은 도메인 주소를 입력하세요.
+  		다른 도메인으로 접속했을 경우 기본 도메인으로 포워딩합니다.
+  		www 쓰는것과 안쓰는 것은 다른 도메인으로 인식합니다.
+      http://를 붙이지 마세요.
+  		( 형태: www.darime.org )</description>
+  	</var>
+
+  	<var name="except_domain">
+  		<title xml:lang="ko">예외 도메인</title>
+  		<description xml:lang="ko">도메인을 입력하면 포워딩하지 않도록 설정합니다.
+  		www 쓰는것과 안쓰는 것은 다른 도메인으로 인식합니다.
+      http://를 붙이지 마세요.
+  		( 형태: www.centralever.com,www.darime.org )</description>
+  	</var>
+        <var name="other_uri">
+            <title xml:lang="ko">다른 주소로 고정</title>
+            <description xml:lang="ko">www 말고 다른 주소로 고정하고 싶을 때 쓰세요.(# 잘못 설정하시면 작동하지 홈페이지를 아예 들어 가지 못하는 경우가 생깁니다!!, 그러나 관리자 페이지에서는 작동하지 않습니다.)</description>
+        </var>
+</group>
+
+</extra_vars>
+
+</addon>
