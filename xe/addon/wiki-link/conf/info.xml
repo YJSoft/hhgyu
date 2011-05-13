@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+    <title xml:lang="ko">위키 Link 애드온</title>
+    <title xml:lang="en">Wiki Link Addon</title>
+    <description xml:lang="ko">
+        글과 댓글의 내용 중 위키 태그에 링크를 걸어줍니다.
+    </description>
+    <description xml:lang="en">
+        ??
+    </description>
+    <version>0.2</version>
+    <date>2011-03-05</date>
+
+    <author email_address="webmaster@us7.kr" link="http://hhgyu.wo.tc/">
+        <name xml:lang="ko">hhgyu</name>
+        <name xml:lang="en">hhgyu</name>
+    </author>
+    <link>http://www.hhgyu.wo.tc</link>
+    
+    <extra_vars>
+        <var name="wiki_link" type="select">
+          <title xml:lang="ko">위키 링크</title>
+          <title xml:lang="en">Wiki Link</title>
+          <description xml:lang="ko">엔하 and 위키피디아모드만 따로 사용합니다.
+          {{엔하}} [[위키피디아]] 입니다.
+          나머지는 둘다 사용가능합니다.</description>
+          <description xml:lang="en">링크를 바꿉니다.</description>
+            <options value="1">
+              <title xml:lang="ko">위키피디아</title>
+              <title xml:lang="en">wikipedia</title>
+            </options>
+            <options value="2">
+              <title xml:lang="ko">엔하위키</title>
+              <title xml:lang="en">angelhalowiki</title>
+            </options>
+            <options value="3">
+              <title xml:lang="ko">엔하 and 위키피디아</title>
+              <title xml:lang="en">angelhalowiki and wikipedia</title>
+            </options>
+        </var>
+     </extra_vars>
+</addon>
