@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+    <title xml:lang="ko">Web Font-Face</title>
+    <description xml:lang="ko">
+        모든 브라우져에 나눔글꼴 웹 폰트를 적용합니다.
+        추후에는 다른 폰트도 지원계획에 있습니다.
+    </description>
+    <version>0.1</version>
+    <date>2010-10-15</date>
+    <author email_address="hhgyu15@gmail.com" link="www.hhgyu.wo.tc">
+    <name xml:lang="ko">hhgyu</name>
+    </author>
+    <link>http://www.hhgyu.wo.tc</link>
+    <extra_vars>
+    <var name="webfonturl" type="select">
+      <title xml:lang="ko">폰트</title>
+      <description xml:lang="ko">어디에서 불러오시겠습니까?&lt;br /&gt;로컬에서 불러오기는 웹폰트는 적용하지않고 컴퓨터에 폰트가 설치 되어있는&lt;br /&gt;경우에만 적용할때를 말합니다.</description>
+      <options value="home">
+          <title xml:lang="ko">내서버</title>
+      </options>
+      <options value="local">
+          <title xml:lang="ko">로컬에서 불러오기</title>
+      </options>
+    </var>
+    <var name="fonttype" type="select">
+      <title xml:lang="ko">폰트 종류</title>
+      <description xml:lang="ko">적용할 폰트를 적용하세요</description>
+        <options value="NanumGothic">
+          <title xml:lang="ko">나눔고딕</title>
+        </options>
+        <options value="NanumGothicBold">
+          <title xml:lang="ko">나눔고딕 Bold</title>
+        </options>
+        <options value="NanumMyeongjo">
+          <title xml:lang="ko">나눔명조</title>
+        </options>
+        <options value="NanumMyeongjoBold">
+          <title xml:lang="ko">나눔명조 Bold</title>
+        </options>
+        <options value="NanumBrush">
+          <title xml:lang="ko">나눔손글씨 붓</title>
+        </options>
+        <options value="NanumPen">
+          <title xml:lang="ko">나눔손글씨 펜</title>
+        </options>
+    </var>
+    <var name="important" type="select">
+      <title xml:lang="ko">우선순위</title>
+      <description xml:lang="ko">다른 폰트로 지정 되있어도 webfontface를 우선순위에 두게 한다.</description>
+        <options value="yes">
+          <title xml:lang="ko">예</title>
+        </options>
+        <options value="no">
+          <title xml:lang="ko">아니요</title>
+        </options>
+    </var>
+    <var name="h24" type="text">
+      <title xml:lang="ko">몇 일 동안 안보이기</title>
+      <description xml:lang="ko">"로컬에서 불러오기" 할때 안내창을 얼마나 몇 일 동안 않보이게 할건지 설정&lt;br /&gt;비워놓으시면 계속 보입니다.</description>
+    </var>
+  </extra_vars>
+</addon>
