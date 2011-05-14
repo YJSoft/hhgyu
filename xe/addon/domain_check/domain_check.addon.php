@@ -9,7 +9,7 @@
      **/
 
     // called_position이 before_module_init일때만 실행, 관리자모드에서 작동 안하기
-    if($called_position != 'before_module_init' || Context::get('module')=='admin') return;
+    if($called_position != 'before_module_init' || Context::get('module')=='admin' || Context::get('module')=='module' || Context::get('module')=='addon') return;
     /*
     * referer 분리해서 이게 프레임에 들어있으면 빠져 나오기
     * 이렇게 만든 이유는?
