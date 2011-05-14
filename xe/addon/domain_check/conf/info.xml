@@ -39,10 +39,6 @@
       http://를 붙이지 마세요.
   		( 형태: www.centralever.com,www.darime.org )</description>
   	</var>
-        <var name="other_uri">
-            <title xml:lang="ko">다른 주소로 고정</title>
-            <description xml:lang="ko">www 말고 다른 주소로 고정하고 싶을 때 쓰세요.(# 잘못 설정하시면 작동하지 홈페이지를 아예 들어 가지 못하는 경우가 생깁니다!!, 그러나 관리자 페이지에서는 작동하지 않습니다.)</description>
-        </var>
 </group>
 
 </extra_vars>
