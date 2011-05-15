@@ -6,8 +6,8 @@
 			2. 예외 도메인 설정 (홈페이지 모듈에 쓰는 도메인을 예외 처리하기)
 			Modified By hhgyu ( hhgyu15@gmail.com )
     </description>
-    <version>0.2.2</version>
-    <date>2011-05-11</date>
+    <version>0.2.3</version>
+    <date>2011-05-15</date>
     <author email_address="admin@darime.org" link="http://www.darime.org/">
         <name xml:lang="ko">다림토렌트</name>
 	  </author>
